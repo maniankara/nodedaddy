@@ -1,0 +1,58 @@
+.geddy-welcome-box-userinputarea {
+  text-align: left;
+  background-color: rgba(200, 200, 200, .5);
+  box-shadow: 0px 0px 3px #bababa;
+  border: 1px solid #EDEDED;
+}
+.slavebox {
+	text-align: center;
+	/*filter:alpha(opacity=50); 
+	opacity:0.5;"*/
+	background-color: rgba(0,255,255,0.2);
+  box-shadow: 0px 0px 3px #bababa;
+  border: 2px solid #EDEDED;
+  width: 250px;
+  color: rgb(72,61,139);
+  font-weight: bold;
+  position: relative;
+}
+.slavebox-status {
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+
+.slavebox-play-button {
+	position:absolute;
+	left:100px;
+	top:40px;
+}
+.slavebox-stop-button {
+	position:absolute;
+	left:120px;
+	top:40px;
+}
+
+.slavebox-idle {
+	content: url('../img/green_tick_icon.jpg');
+}
+
+.slavebox-running {
+	content: url('../img/rotating-animated.gif');
+}
+
+.slavebox-disconnected {
+	content: url('../img/disconnect.png');
+}
+
+.slavebox-play {
+	content: url('../img/play.png');
+}
+
+.slavebox-stop {
+	content: url('../img/stop-icon.png');
+}
+
+.slavebox-stop-inactive {
+	content: url('../img/stop_inactive.gif');
+}
